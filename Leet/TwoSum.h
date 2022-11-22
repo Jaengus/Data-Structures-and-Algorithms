@@ -1,5 +1,3 @@
-class TwoSum {
-public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> v;
         v.push_back(0);
@@ -17,4 +15,3 @@ public:
     }
         return v;
     }
-};
